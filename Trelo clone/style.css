@@ -5,11 +5,18 @@
     padding: 0;
     font-family: "Poppins";
 }
+header{
+    background-color: white;
+}
 nav{
     display: flex;
     justify-content: space-between;
-    width: 85vw;
-    margin-left: 7.5vw;
+    width: 100vw;
+    padding: 0px 7.5vw;
+    position: fixed;
+    background-color: white;
+    box-sizing: border-box;
+    z-index: 2;
 }
 
 .left-side{
@@ -62,4 +69,87 @@ nav{
     color: white;
     background-color: #0a67f2;
     padding: 16px 23px;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    height: 85vh;
+    background: linear-gradient(to right, #6043a8, #e04fb3);
+    position: relative;
+}
+
+.text{
+    width: 35vw;
+    margin: 0px 4vw 0px 13vw;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.image img{
+    width: 41vw;
+    z-index: 1;
+    margin-top: 130px;
+    margin-right: 8vw;
+    position: relative;
+}
+
+.cutout{
+    position: absolute;
+    bottom: 0px;
+    width: 100vw;
+}
+
+.title{
+    font-size: 44px;
+    font-weight: 500;
+}
+
+.subtitle{
+    font-size: large;
+}
+
+.inputs{
+    padding: 30px 0px;
+}
+
+#email-1{
+    width: 300px;
+    height: 50px;
+    border: 0px solid white;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+#email-1::placeholder{
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+.text button{
+    height: 50px;
+    background-color: #0a67f2;
+    border-radius: 5px;
+    border: 0px;
+    padding: 0px 20px;
+    color: white;
+    font-size: 15px;
+}
+
+.watch-video a{
+    color: rgb(215, 212, 212);
+}
+
+.watch-video svg{
+    color:  rgb(215, 212, 212);
+}
+
+.watch-video a:hover{
+    color: white;
+}
+
+.watch-video svg:hover{
+    color:  white;
+    padding: -0px 5px;
 }
