@@ -71,6 +71,10 @@ nav{
     padding: 16px 23px;
 }
 
+#get-free:hover{
+    background-color: #164d9f;
+}
+
 section{
     display: flex;
     align-items: center;
@@ -137,6 +141,10 @@ section{
     font-size: 15px;
 }
 
+.text button:hover{
+    background-color: #164d9f;
+}
+
 .watch-video a{
     color: rgb(215, 212, 212);
 }
@@ -151,5 +159,65 @@ section{
 
 .watch-video svg:hover{
     color:  white;
-    padding: -0px 5px;
+    padding: 0px 5px;
+}
+
+.cursol{
+    width: 74vw;
+    margin: 30px 13vw;
+}
+
+.hold{
+    background: linear-gradient(to top, #e7fcff, white);
+    padding-bottom: 5~~0px;
+}
+
+.bold{
+    font-weight: 500;
+}
+
+.writeup{
+    display: flex;
+    flex-direction: column;
+    width: 51%;
+}
+
+.title-1{
+    font-weight: 500;
+    font-size: 35px;
+    padding: 10px 0px 23px 0px;
+}
+.inner-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 48px 0px;
+}
+
+.small{
+    font-size: 16px;
+}
+
+.box{
+    margin: 5px 40px 30px 0px;
+}
+
+.cont{
+    padding: 10px 0px 10px 30px;
+}
+.hori-sep{
+    width: 25px;
+    background-color: #00c7e5;
+}
+
+.box1{
+    display: flex;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: rgba(9, 30, 66, 0.15) 0px 0.5rem 1rem 0px;
+}
+
+.all-text{
+    padding: 8px 0px;
+    font-size: 14px;
 }
