@@ -183,3 +183,20 @@ video{
 .questions span{
     font-size: 25px;
 }
+
+footer{
+    width: 60vw;
+    margin: 30px 20vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+footer span{
+    grid-column: 1/5;
+    padding: 20px;
+}
+
+footer a{
+    text-decoration: none;
+    padding: 10px 20px;
+}
